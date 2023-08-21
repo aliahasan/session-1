@@ -99,25 +99,40 @@
     background-color: green;
     color: white;
     transition: .5s;
+    cursor: pointer;
 }
 
 
 .title2 {
-    font-size: 40px;
-    margin-top: 50px;
+    font-size: 50px;
+    margin-top: 60px;
     text-align: center;
+}
+
+
+.package-details {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -40px;
 }
 
 .package1 {
     width: 300px;
     border: 1px solid gray;
+    margin-top: 0px;
     margin: 100px 50px;
     text-align: center;
+    box-shadow: 0px 2px 10px gray;
 
 }
 
 .package1 img {
     padding-top: 20px;
+    width: 60px;
+}
+
+.third-icon img {
+    width: 100px;
 }
 
 .text {
@@ -127,9 +142,211 @@
 
 .link {
     text-decoration: none;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
-.package1 img {
-    width: 60px;
+.about-section {
+    background-color: rgb(16, 15, 15);
+    color: white;
+    width: 100%;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.about-details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-left {
+    border-top: 1px solid red;
+    width: 700px;
+}
+
+.about-img {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+    padding-bottom: 30px;
+}
+
+.image1 img {
+    width: 80%;
+    transform: skewY(-15deg);
+}
+
+.image2 img {
+    width: 80%;
+    transform: skewY(-15deg);
+}
+
+.about-right {
+    border-top: 1px solid yellow;
+    width: 700px;
+}
+
+.right-descript {
+    padding-top: 80px;
+}
+
+.heading {
+    font-size: 43px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: yellow;
+}
+
+.list-container {
+
+    font-size: 18px;
+    line-height: 1.5;
+    list-style: square;
+    padding-left: 20px;
+}
+
+.work-inquary-container {
+
+    margin-top: 50px;
+    color: white;
+}
+
+.wrk-inqry {
+    width: 700px;
+    margin: 0 auto;
+    height: 200px;
+    background-image: url("./images/shape/Group_33094_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    margin-bottom: 50px;
+
+}
+
+.btttn {
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+
+.heading2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.service1 {
+    width: 300px;
+    border: 10px;
+    margin: 20px;
+    box-shadow: 8px 8px 16px rgb(17, 16, 16);
+    border-radius: 5px;
+}
+
+.service1 img {
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+.service-description {
+    padding-left: 10px;
+    line-height: 1.5;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.join-btn {
+    padding-right: 20px;
+    padding-top: 15px;
+    color: navy;
+}
+
+#arrow {
+    padding-left: 4px;
+}
+
+.name {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.servicies {
+    display: flex;
+    justify-content: center;
+
+}
+
+.batch-image {
+    position: relative;
+    width: 50px;
+    left: 90%;
+}
+
+.batch-img {
+    top: -30px;
+    position: absolute;
+}
+
+footer {
+    padding: 100px;
+}
+
+.footer h5 {
+    margin-top: 50px;
+    word-spacing: 25px;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.footer h5 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.footer h5 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+.footer p a {
+    color: red;
+    text-decoration: none;
+}
+
+.footer p a:hover {
+    color: red;
+    text-decoration: underline;
+
 }
